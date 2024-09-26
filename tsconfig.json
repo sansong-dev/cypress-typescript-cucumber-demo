@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Specify ECMAScript target version
+    "lib": ["esnext", "dom"], // Specify library files to be included in the compilation
+    "types": ["cypress", "node"], // Type declaration files to be included in the compilation
+    "moduleResolution": "NodeNext", // Specify module resolution strategy
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "strict": true, // Enable all strict type-checking options
+    },
+  "include": ["**/*.ts"], // Include all TypeScript files in the project
+  "exclude": ["node_modules"] // Exclude node_modules from the compilation
+}
